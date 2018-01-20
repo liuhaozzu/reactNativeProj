@@ -5,16 +5,16 @@ import React from 'react';
 import { View, Text, Button, WebView } from 'react-native';
 import { StackNavigator } from 'react-navigation'; // 1.0.0-beta.14
 
-import Home from '../components/Home'
-import NewsDetail from '../components/NewsDetail'
+import Home from '../components/Home/index'
+import HomeDetail from '../components/Home/HomeDetail'
 
-const RootNavigator = StackNavigator({
+const HomeNavigator = StackNavigator({
   Home: {
     screen: Home
   },
-  Details: {
-    screen: NewsDetail
+  HomeDetail: {
+    screen: HomeDetail
   }
 });
 
-export default RootNavigator;
+export default HomeNavigator;
