@@ -11,6 +11,7 @@ import HomeDetail from '../components/Home/HomeDetail'
 const HomeNavigator = StackNavigator({
   Home: {
     screen: Home
+
   },
   HomeDetail: {
     screen: HomeDetail
