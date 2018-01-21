@@ -8,14 +8,20 @@ import {
   Text,
   TouchableOpacity
 } from 'react-native'
+
+import HeaderNavBar from '../HeaderNavBar'
 class Home extends Component{
 
   constructor(props){
     super(props)
   }
-  static navigationOptions ={
-    title: 'homedetail',
-    headerMode: 'none'
+  static navigationOptions =({navigation})=>{
+    // header: null,
+    return({
+      //headerStyle: {height:65, flexDirection: 'row', marginTop: 0},
+      //header: null,
+      header: <HeaderNavBar navigation={navigation}></HeaderNavBar>
+    })
   }
   render(){
     return (
