@@ -7,6 +7,7 @@ import { StackNavigator } from 'react-navigation'; // 1.0.0-beta.14
 
 import Home from '../components/Home/index'
 import HomeDetail from '../components/Home/HomeDetail'
+import ShoppingCenterDetails from '../components/Home/ShoppingCenter/ShoppingCenterDetails'
 
 const HomeNavigator = StackNavigator({
   Home: {
@@ -15,6 +16,9 @@ const HomeNavigator = StackNavigator({
   },
   HomeDetail: {
     screen: HomeDetail
+  },
+  ShoppingCenterDetails: {
+    screen: ShoppingCenterDetails
   }
 });
 
