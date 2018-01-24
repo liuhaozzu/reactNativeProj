@@ -13,6 +13,7 @@ import {
 } from 'react-native'
 
 const {width, height} = Dimensions.get('window')
+
 const TimerMixin = require('react-timer-mixin')
 
 export default class Launch extends Component{

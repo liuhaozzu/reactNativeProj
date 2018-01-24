@@ -9,10 +9,10 @@ import Home from '../components/Home/index'
 import HomeDetail from '../components/Home/HomeDetail'
 import ShoppingCenterDetails from '../components/Home/ShoppingCenter/ShoppingCenterDetails'
 
+
 const HomeNavigator = StackNavigator({
   Home: {
     screen: Home
-
   },
   HomeDetail: {
     screen: HomeDetail

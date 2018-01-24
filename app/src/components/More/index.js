@@ -20,7 +20,7 @@ class More extends Component{
     // header: null,
     return({
       //headerStyle: {height:65, flexDirection: 'row', marginTop: 0},
-      header: <NomalHeaderNavBar iconStyle={styles.iconStyle} title="Shopping Center" iconName="icon_mine_setting" navigation={navigation}></NomalHeaderNavBar>
+      header: <NomalHeaderNavBar iconStyle={styles.iconStyle} title="More" iconName="icon_mine_setting" navigation={navigation}></NomalHeaderNavBar>
     })
   }
 

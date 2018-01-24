@@ -65,11 +65,13 @@ const tabbarData2=[
   }
 ]
 
+
 class App extends Component<{}> {
+
   constructor(props){
     super(props)
     this.state ={
-      selectedTab: 'Home'
+      selectedTab: 'Mine'
     }
   }
 

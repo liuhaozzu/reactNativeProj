@@ -20,6 +20,7 @@ import HomeMidView from './HomeMidView'
 import HomeMidBottomView from './HomeMidBottomView'
 import ShoppingCenter from './ShoppingCenter'
 import Guess from './Guess'
+
 class Home extends Component{
 
   constructor(props){
