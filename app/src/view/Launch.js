@@ -13,7 +13,7 @@ import {
 } from 'react-native'
 
 const {width, height} = Dimensions.get('window')
-
+const TimerMixin = require('react-timer-mixin')
 
 export default class Launch extends Component{
   constructor(props){
@@ -35,13 +35,13 @@ export default class Launch extends Component{
   render(){
     return (
       <View>
-        <Image source={{uri: 'launchimage'}} style={styles.launchImageStyle}></Image>
+        <Image source={{uri: 'daydayup'}} style={styles.launchImageStyle}></Image>
       </View>
     )
   }
 
   componentDidMount() {
-    setTimeout(()=>{
+    TimerMixin.setTimeout(()=>{
       console.log('launch',this)
       this.props.navigation.navigate('App')
     },5000)

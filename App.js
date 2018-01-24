@@ -65,11 +65,11 @@ const tabbarData2=[
   }
 ]
 
-export class App extends Component<{}> {
+class App extends Component<{}> {
   constructor(props){
     super(props)
     this.state ={
-      selectedTab: 'Shop'
+      selectedTab: 'Home'
     }
   }
 
@@ -145,13 +145,10 @@ const styles = StyleSheet.create({
 });
 
 export default LaunchNavigator = StackNavigator({
-  /*Launch: {
+  Launch: {
     screen: Launch
-  },*/
-  App: {
-    screen: App
   },
-  initialRouteName: {
+  App: {
     screen: App
   }
 })
