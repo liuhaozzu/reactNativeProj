@@ -33,7 +33,7 @@ class Mine extends Component{
       <ScrollView contentContainerStyle={styles.scrollViewStyle}
                   style={styles.scrollViewStyle}>
         <HeaderView title='天天向上'></HeaderView>
-        <View style={{marginTop: 15}}>
+        <View>
           <MineCommonCell leftIconName='collect' leftTitle='我的订单' rightTitle='查看全部订单'/>
           <PayView></PayView>
         </View>

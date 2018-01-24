@@ -67,8 +67,8 @@ export default class HeaderView extends Component{
     ]
     data.forEach((item, index)=>{
       itemArr.push(
-        <TouchableOpacity activeOpacity={0.5} onPress={()=>{alert('clicked')}}>
-          <View key={index} style={styles.bottomImageStyle}>
+        <TouchableOpacity key={index} activeOpacity={0.5} onPress={()=>{alert('clicked')}}>
+          <View style={styles.bottomImageStyle}>
             <Text>{item.number}</Text>
             <Text>{item.title}</Text>
           </View>
